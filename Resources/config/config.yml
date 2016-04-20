@@ -1,0 +1,6 @@
+pau_peris_google_api_client:
+    client_id: xxxxxxxxxxxxxxxxxx
+    client_secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    redirect_uri: https://www.example.com/google/login-check
+    application_name: Some App Name
+    scopes: [ 'email', 'profile' ]

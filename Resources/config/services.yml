@@ -1,0 +1,7 @@
+parameters:
+    google.api_client.class: PauPeris\GoogleAPIClientBundle\Core\GoogleAPIClient
+
+services:
+    google.api_client:
+        class: %google.api_client.class%
+        arguments: [ @service_container ]

@@ -1,0 +1,46 @@
+{
+    "name": "google-api-client-bundle",
+    "version": "0.1",
+    "title": "Google API Client Bundle",
+    "description": "Symfony bundle which integrates Google API Client PHP library into your Symfony app",
+    "keywords": [
+        "google",
+        "api",
+        "client",
+        "pau",
+        "peris",
+        "php",
+        "bundle",
+        "symfony"
+    ],
+    "homepage": "https://github.com/pauperis/google-api-client-bundle",
+    "author": {
+        "name": "Pau Peris",
+        "url": "https://pauperis.com"
+    },
+    "maintainers": [
+        {
+            "name": "Pau Peris",
+            "url": "https://pauperis.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pauperis/google-api-client-bundle"
+    },
+    "bugs": "https://github.com/pauperis/google-api-client-bundle/issues",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "google/apiclient": "1.0.*@beta"
+    }
+    "autoload": {
+        "psr-0" : {
+            "PauPeris\\GoogleAPIClientBundle" : "src"
+        }
+    }
+}
