@@ -1,6 +1,7 @@
 {
     "name": "pau-peris/google-api-client-bundle",
     "version": "0.1",
+    "minimum-stability": "stable",
     "title": "Google API Client Bundle",
     "description": "Symfony bundle which integrates Google API Client PHP library into your Symfony app",
     "keywords": [
