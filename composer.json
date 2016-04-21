@@ -14,7 +14,7 @@
         "bundle",
         "symfony"
     ],
-    "homepage": "https://github.com/pauperis/google-api-client-bundle",
+    "homepage": "https://github.com/paupperis/google-api-client-bundle",
     "author": {
         "name": "Pau Peris",
         "url": "https://pauperis.com"
@@ -44,7 +44,7 @@
         "google/apiclient": "1.0.*@beta"
     },
     "autoload": {
-        "psr-0" : {
+        "psr-4" : {
             "PauPeris\\GoogleAPIClientBundle" : "src"
         }
     }
